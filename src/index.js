@@ -26,7 +26,7 @@ app.use(function (e, req, res, next) {
     next()
 })
 
-mongoose.connect("mongodb+srv://kaluram123:iKetOTUhK5vten7w@cluster0.4yhyg.mongodb.net/group44Database", {
+mongoose.connect("mongodb+srv://dipalidatit-project:1epbeEqP4NFreEba@cluster0.tzfsd9f.mongodb.net/dipali1?retryWrites=true&w=majority", {
 
 })
     .then(() => console.log("MongoDB is connected successfully.."))
